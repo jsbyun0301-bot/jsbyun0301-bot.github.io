@@ -1,0 +1,55 @@
+{
+  "name": "jsbyun0301-bot-portfolio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build && node scripts/prepare-spa-routes.mjs",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.12",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.3.0",
+    "react-scroll": "1.9.0",
+    "zustand": "^5.0.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.12",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "18.2.22",
+    "@types/react-scroll": "^1.8.10",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.12",
+    "typescript": "^5.7.3",
+    "vite": "^6.2.1",
+    "vite-tsconfig-paths": "^5.1.4"
+  },
+  "homepage": "https://jsbyun0301-bot.github.io",
+  "description": "변지섭(Jiseob Byun) — Data-Driven Planner 포트폴리오. macOS 스타일 인터랙티브 웹.",
+  "main": "tailwind.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsbyun0301-bot/jsbyun0301-bot.github.io.git"
+  },
+  "keywords": [
+    "portfolio",
+    "data-driven",
+    "planning",
+    "react",
+    "typescript",
+    "vite"
+  ],
+  "author": "변지섭 (Jiseob Byun)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsbyun0301-bot/jsbyun0301-bot.github.io/issues"
+  }
+}

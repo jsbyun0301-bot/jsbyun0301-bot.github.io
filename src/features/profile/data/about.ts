@@ -1,0 +1,13 @@
+import type { About } from '../types';
+
+export const ABOUT: About = {
+  name: '변지섭',
+  role: 'Data-Driven Planner',
+  birth: '',
+  avatarSrc: '/assets/common/profile/jiseob.png',
+  paragraphs: [
+    '데이터에서 인사이트를 발견해 전략과 기획으로 연결하는 기획자 변지섭입니다.',
+    '스타트업 전략 학회와 여러 산학협력 프로젝트에서 데이터 분석 기반의 전략 수립을 훈련했고, 최근까지 ESTsoft에서 AI 더빙·번역 품질(QC)을 검증하며 AI 프로덕트가 실제 사용자에게 닿는 마지막 품질을 다듬었습니다.',
+    '개발이 주 전공은 아니지만, 필요한 도구는 직접 익혀 만듭니다. 이 포트폴리오 사이트 역시 그 증거입니다.',
+  ],
+};

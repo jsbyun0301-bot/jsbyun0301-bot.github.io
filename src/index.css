@@ -1,0 +1,83 @@
+@import 'tailwindcss';
+
+@layer root {
+  :root {
+    color-scheme: light;
+  }
+
+  html,
+  body,
+  #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family:
+      -apple-system,
+      BlinkMacSystemFont,
+      'SF Pro Text',
+      'SF Pro Display',
+      'Pretendard Variable',
+      'Pretendard',
+      'Apple SD Gothic Neo',
+      'Noto Sans KR',
+      sans-serif;
+    font-weight: 450;
+    letter-spacing: -0.01em;
+    /* 한국어 단어가 중간에서 잘리지 않도록 어절 단위로 줄바꿈 */
+    word-break: keep-all;
+    overflow-wrap: break-word;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-synthesis: none;
+    -ms-overflow-style: none; /* IE/구형 Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  body::-webkit-scrollbar {
+    display: none;
+  } /* Chrome/Safari */
+}
+
+.app-scroll {
+  scroll-behavior: smooth;
+  scrollbar-gutter: stable;
+}
+
+.horizontal-scroll {
+  scroll-behavior: smooth;
+  scroll-padding-inline: 0.25rem;
+}
+
+.app-scroll,
+.horizontal-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(148, 163, 184, 0.92) transparent;
+}
+
+.app-scroll::-webkit-scrollbar,
+.horizontal-scroll::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.app-scroll::-webkit-scrollbar-track,
+.horizontal-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.app-scroll::-webkit-scrollbar-thumb,
+.horizontal-scroll::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.88);
+  border: 2px solid transparent;
+  border-radius: 999px;
+  background-clip: padding-box;
+}
+
+.tab-strip-scroll {
+  scrollbar-width: none;
+}
+
+.tab-strip-scroll::-webkit-scrollbar {
+  display: none;
+}
