@@ -4,7 +4,7 @@ export const SEO_BASE_URL = 'https://jsbyun0301-bot.github.io';
 
 export const SEO_SITE_NAME = '변지섭 포트폴리오';
 
-export const SEO_IMAGE_URL = `${SEO_BASE_URL}/assets/common/profile/jiseob.png`;
+export const SEO_IMAGE_URL = `${SEO_BASE_URL}/og-image.png`;
 
 export type RouteSeo = {
   title: string;
