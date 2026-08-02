@@ -12,7 +12,7 @@ export const EXPERIENCE: ExperienceSection[] = [
     title: '데이터 분석 · 시각화',
     lines: [
       'Python과 R로 정량 분석을 직접 수행합니다. 카페 리뷰 감성분석(NLTK)·키워드 추출(KeyBERT·KoNLPy·spaCy)부터 설문 기반 K-Means 군집분석, 상권 데이터 회귀분석까지 데이터에서 근거를 만들어 전략으로 연결한 경험이 있습니다.',
-      'Excel 시각화와 Google Analytics 지표 분석에 익숙하고, Power BI·Tableau 등 BI 도구도 학습해 다뤄봤습니다. ADsP(데이터분석 준전문가)·Google Analytics 자격을 보유하고 있습니다.',
+      'Excel 시각화와 Google Analytics 지표 분석에 익숙하고, Power BI·Tableau 등 BI 도구도 학습해 다뤄봤습니다. ADsP(데이터분석 준전문가) 자격을 보유하고 있습니다.',
     ],
   },
   {

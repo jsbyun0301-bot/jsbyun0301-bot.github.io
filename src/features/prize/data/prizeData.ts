@@ -18,13 +18,6 @@ export const prizeList = [
   },
   {
     src: AWARD_PLACEHOLDER,
-    title: 'Google Analytics 자격증',
-    date: '2024.08',
-    organization: 'Google',
-    description: 'Google Analytics 자격 취득',
-  },
-  {
-    src: AWARD_PLACEHOLDER,
     title: '산학협력 아이디어 우수상 (2학기)',
     date: '2023.11',
     organization: '스타트업 실천경영전략학회 <그루>',
