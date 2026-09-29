@@ -36,7 +36,22 @@ const USER_API_URL = `https://api.github.com/users/${GITHUB_OWNER}`;
 const FEATURED_REPOS: string[] = [
   'my-vibe-ai-chat',
   'AI-dubbing-app',
-  'mococobot',
+];
+
+// 저장소를 공개할 수 없어 설명만 싣는 프로젝트.
+const PRIVATE_PROJECTS: {
+  name: string;
+  language: string;
+  summary: string;
+  privateReason: string;
+}[] = [
+  {
+    name: 'mococobot',
+    language: 'Python',
+    summary:
+      '길드원들이 쓰는 레이드 일정·파티 관리 디스코드 봇입니다. 공개 프로젝트를 가져와 길드 운영에 필요한 기능만 남기고 다듬어, 현재까지 직접 서버를 운영하며 쓰고 있습니다.',
+    privateReason: '서버 주소와 봇 토큰 등이 포함되어 저장소는 비공개로 두었습니다.',
+  },
 ];
 
 const repoApiUrl = (name: string) =>
@@ -349,6 +364,38 @@ export function GitHubProfilePanel() {
                       </a>
                     ) : null}
                   </div>
+                </article>
+              ))}
+            </div>
+          </div>
+
+          <div className='rounded-[30px] border border-white/70 bg-white/90 p-6 shadow-[0_24px_60px_rgba(15,23,42,0.08)]'>
+            <div className='text-[24px] font-semibold tracking-[-0.03em] text-[#0f172a]'>
+              비공개 저장소
+            </div>
+            <p className='mt-2 text-sm leading-6 text-[#64748b]'>
+              코드를 공개할 수 없어 무엇을 위해 만들었고 어떻게 쓰이는지만 적었습니다.
+            </p>
+
+            <div className='mt-5 grid gap-4 xl:grid-cols-2'>
+              {PRIVATE_PROJECTS.map((item) => (
+                <article
+                  key={item.name}
+                  className='rounded-[24px] border border-[#e2e8f0] bg-[#fbfdff] p-5 shadow-[0_12px_28px_rgba(15,23,42,0.04)]'
+                >
+                  <div className='text-[20px] font-semibold tracking-[-0.03em] text-[#0f172a]'>
+                    {item.name}
+                  </div>
+                  <div className='mt-2 flex flex-wrap items-center gap-2 text-xs text-[#64748b]'>
+                    <span className='rounded-full bg-[#e8f0fb] px-2.5 py-1 font-medium text-[#245a9a]'>
+                      {item.language}
+                    </span>
+                    <span className='rounded-full bg-[#f1f5f9] px-2.5 py-1 font-medium text-[#64748b]'>
+                      비공개
+                    </span>
+                  </div>
+                  <p className='mt-4 text-sm leading-7 text-[#334155]'>{item.summary}</p>
+                  <p className='mt-3 text-xs leading-6 text-[#94a3b8]'>{item.privateReason}</p>
                 </article>
               ))}
             </div>
