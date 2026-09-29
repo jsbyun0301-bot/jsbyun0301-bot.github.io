@@ -27,7 +27,7 @@ export const HIRAX_DATA: ProjectData = {
   outcomes: HIRAX_OUTCOMES,
   skills: [
     skillChip('상권 분석'),
-    skillChip('회귀분석'),
+    skillChip('상관분석'),
     skillChip('포지셔닝'),
     skillChip('UX 기획'),
     skillChip('데이터 시각화'),

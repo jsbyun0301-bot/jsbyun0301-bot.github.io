@@ -6,15 +6,13 @@ export const CAREER: CareerEntry[] = [
     period: '2025.08 ~ 2026.07',
     role: 'AI 번역·더빙 품질 검증 (QC) 인턴',
     highlights: [
-      'AI 더빙·번역 파이프라인 품질을 PoC 단위로 검증 (30여 건)',
-      'ElevenLabs·BytePlus TTS 및 Gemini·GPT 번역 모델의 품질을 정량·정성으로 비교 평가',
+      'AI 더빙·번역 파이프라인의 핵심 검증 업무 30여 건 수행',
+      '외부 TTS 솔루션과 주요 LLM 번역 모델의 품질을 정량·정성으로 비교 평가',
       '프롬프트·용어 처리 개선과 언어별 품질 이슈를 검토해 배포 의사결정을 지원',
       '사내 개발 교육 스터디로 익힌 역량을 적용해 품질 검증 자동화 도구를 직접 구축',
     ],
     stacks: [
-      'ElevenLabs',
-      'Gemini',
-      'GPT',
+      'LLM 평가',
       'Prompt Engineering',
       'TTS / STS',
       'Notion',
