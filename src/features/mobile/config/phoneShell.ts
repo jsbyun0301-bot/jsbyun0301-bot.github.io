@@ -9,6 +9,8 @@ import {
   GRU_ICON,
   HIRAX_ICON,
   INOBUS_ICON,
+  SPACEV_ICON,
+  SECOND_ICON,
   LINKEDIN_ICON,
   WORK_ICON,
 } from '@/features/desktop/config/shell';
@@ -249,6 +251,18 @@ export const PHONE_APPS: PhoneApp[] = [
     launch: { kind: 'page', pageId: 'inobus' },
   },
   {
+    id: 'spacev',
+    label: '스페이스브이',
+    icon: SPACEV_ICON,
+    launch: { kind: 'page', pageId: 'spacev' },
+  },
+  {
+    id: 'second',
+    label: '세컨신드롬',
+    icon: SECOND_ICON,
+    launch: { kind: 'page', pageId: 'second' },
+  },
+  {
     id: 'hirax',
     label: '하이랙스',
     icon: HIRAX_ICON,
@@ -297,7 +311,7 @@ export const PHONE_DOCK_APP_IDS = ['contact', 'terminal', 'chrome', 'settings'] 
 
 export const PHONE_FOLDER_APP_IDS: Record<PhoneFolderId, string[]> = {
   projects: ['gru', 'dongnae', 'cafe', 'game'],
-  gru: ['hirax', 'inobus', 'grace'],
+  gru: ['spacev', 'second', 'inobus', 'hirax', 'grace'],
 };
 
 export const PHONE_FOLDER_TITLES: Record<PhoneFolderId, string> = {

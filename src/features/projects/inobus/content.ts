@@ -4,7 +4,7 @@ export const INOBUS_SUMMARY =
   '앱 기반 친환경 리필스테이션에 "배송"을 더한 신규 플랫폼 비즈니스 전략 기획 (이노버스 산학협력)';
 
 export const INOBUS_HIGHLIGHTS = [
-  '산학협력 아이디어 우수상',
+  '산학협력 우수상',
   '1,200세대 단지 기준 연간 추정매출 약 969만 원 산출',
 ];
 
@@ -36,7 +36,7 @@ export const INOBUS_RESPONSIBILITIES = [
 ];
 
 export const INOBUS_OUTCOMES = [
-  '산학협력기업 아이디어 우수상 수상',
+  '산학협력기업 우수상 수상',
   '1,200세대 아파트 단지 기준 연간 추정매출 약 969만 원 도출',
   '친환경(리필)과 편의(배송)를 결합한 차별화 전략 제안',
 ];

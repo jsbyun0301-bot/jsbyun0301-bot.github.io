@@ -5,7 +5,6 @@ export const GRACE_SUMMARY =
 
 export const GRACE_HIGHLIGHTS = [
   '"Work맨을 위한 Walk 서포트" 포지셔닝 컨셉 도출',
-  '산학협력 아이디어 우수상',
 ];
 
 export const GRACE_RESPONSIBILITIES = [
@@ -37,7 +36,6 @@ export const GRACE_RESPONSIBILITIES = [
 export const GRACE_OUTCOMES = [
   '닥터숄 국내 포지셔닝 컨셉 및 직업군 카테고리 설계',
   '자사몰·라이브커머스·B2B 입점을 아우르는 판매 전략 제안',
-  '산학협력기업 아이디어 우수상 수상',
 ];
 
 export const GRACE_SECTIONS: ProjectSection[] = [

@@ -9,6 +9,6 @@ export const EDUCATION: EducationEntry[] = [
   {
     school: '수저우 싱가폴 국제학교 (Suzhou Singapore International School)',
     majors: ['IB Diploma Programme (국제 바칼로레아) 이수'],
-    period: '~ 2017 졸업',
+    period: '2014.08 ~ 2017.06',
   },
 ];

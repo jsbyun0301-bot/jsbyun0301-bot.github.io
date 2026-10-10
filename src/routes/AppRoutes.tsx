@@ -20,6 +20,8 @@ const SettingsPage = lazy(() =>
 );
 const Inobus = lazy(() => import('@/features/projects/inobus/Page'));
 const Hirax = lazy(() => import('@/features/projects/hirax/Page'));
+const SpaceV = lazy(() => import('@/features/projects/spacev/Page'));
+const Second = lazy(() => import('@/features/projects/second/Page'));
 const Grace = lazy(() => import('@/features/projects/grace/Page'));
 const WorkPage = lazy(() => import('@/features/work/WorkPage'));
 const CardPage = lazy(() => import('@/features/card/CardPage'));
@@ -108,6 +110,22 @@ const AppRoutes = () => (
         element={
           <MobileAwareRoute initialApp={{ kind: 'page', pageId: 'inobus' }}>
             <Inobus />
+          </MobileAwareRoute>
+        }
+      />
+      <Route
+        path='/spacev'
+        element={
+          <MobileAwareRoute initialApp={{ kind: 'page', pageId: 'spacev' }}>
+            <SpaceV />
+          </MobileAwareRoute>
+        }
+      />
+      <Route
+        path='/second'
+        element={
+          <MobileAwareRoute initialApp={{ kind: 'page', pageId: 'second' }}>
+            <Second />
           </MobileAwareRoute>
         }
       />

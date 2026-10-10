@@ -10,6 +10,8 @@ export type PageType =
   | 'inobus'
   | 'hirax'
   | 'grace'
+  | 'spacev'
+  | 'second'
   | 'dongnae'
   | 'cafe'
   | 'game'

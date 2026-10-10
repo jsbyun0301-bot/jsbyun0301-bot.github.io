@@ -57,6 +57,18 @@ export const ROUTE_SEO: Record<string, RouteSeo> = {
       '친환경 리필스테이션에 배송을 더한 신규 플랫폼 비즈니스 전략을 기획한 이노버스 산학협력 프로젝트입니다.',
     canonicalPath: '/inobus/',
   },
+  '/spacev': {
+    title: '스페이스브이 단기임대 플랫폼 | 변지섭 포트폴리오',
+    description:
+      '대학가 고시원 현장 인터뷰로 공실 위험이라는 공급 병목을 규명하고, 어학당과 정규학기의 일정 차이를 활용한 연계 패키지를 기획한 스페이스브이 산학협력 프로젝트입니다.',
+    canonicalPath: '/spacev/',
+  },
+  '/second': {
+    title: '세컨신드롬 셀프스토리지 | 변지섭 포트폴리오',
+    description:
+      '셀프스토리지 다락의 입지 조건을 기준화해 매물 선별 방법론을 수립하고, 부동산 콘텐츠 채널 협업으로 공급자 유입 경로를 설계한 세컨신드롬 산학협력 프로젝트입니다.',
+    canonicalPath: '/second/',
+  },
   '/hirax': {
     title: '하이랙스 스마트 피트니스 | 변지섭 포트폴리오',
     description:

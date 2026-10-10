@@ -5,7 +5,6 @@ export const HIRAX_SUMMARY =
 
 export const HIRAX_HIGHLIGHTS = [
   '1인가구 수 ↔ 점포 수 상관분석 (R² 0.46, p < 0.001)',
-  '산학협력 아이디어 우수상',
 ];
 
 export const HIRAX_RESPONSIBILITIES = [
@@ -38,7 +37,6 @@ export const HIRAX_RESPONSIBILITIES = [
 export const HIRAX_OUTCOMES = [
   '상관분석으로 개인화 전략의 데이터 근거 확보',
   'AI 컨디션 맞춤 서비스 UI 및 개인화 CX 제안',
-  '산학협력기업 아이디어 우수상 수상',
 ];
 
 export const HIRAX_SECTIONS: ProjectSection[] = [

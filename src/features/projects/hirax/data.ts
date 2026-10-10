@@ -41,7 +41,7 @@ export const HIRAX_DATA: ProjectData = {
     roleChip('전략 기획'),
     roleChip('UX 기획'),
   ],
-  result: ['상관분석 R² 0.46 (p<0.001)', '산학협력 아이디어 우수상'],
+  result: ['상관분석 R² 0.46 (p<0.001)'],
   category: categoryChip('기획 · 전략'),
   sections: HIRAX_SECTIONS,
 };

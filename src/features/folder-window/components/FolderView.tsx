@@ -11,6 +11,8 @@ import {
   GRU_ICON,
   HIRAX_ICON,
   INOBUS_ICON,
+  SPACEV_ICON,
+  SECOND_ICON,
 } from '@/features/desktop/config/shell';
 
 type ProjectTile = { id: PageType; title: string; icon: string };
@@ -19,6 +21,8 @@ type ProjectTile = { id: PageType; title: string; icon: string };
 const GRU_PROJECTS: ProjectTile[] = [
   { id: 'hirax', title: '하이랙스', icon: HIRAX_ICON },
   { id: 'inobus', title: '이노버스', icon: INOBUS_ICON },
+  { id: 'spacev', title: '스페이스브이', icon: SPACEV_ICON },
+  { id: 'second', title: '세컨신드롬', icon: SECOND_ICON },
   { id: 'grace', title: '그레이스', icon: GRACE_ICON },
 ];
 

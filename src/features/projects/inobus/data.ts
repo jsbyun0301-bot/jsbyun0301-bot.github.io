@@ -35,13 +35,13 @@ export const INOBUS_DATA: ProjectData = {
   tools: [toolChip('Excel'), toolChip('PowerPoint')],
   period: '2023.04 ~ 2023.07',
   membersLabel: '소속',
-  members: '스타트업 전략학회 <그루> · 이노버스 산학협력',
+  members: '성균관대 스타트업 실천경영전략학회 <그루> · 이노버스 산학협력',
   roles: [
     roleChip('전략 기획'),
     roleChip('데이터 분석'),
     roleChip('수익모델 설계'),
   ],
-  result: ['산학협력 아이디어 우수상', '1,200세대 기준 연 추정매출 약 969만 원'],
+  result: ['산학협력 우수상', '1,200세대 기준 연 추정매출 약 969만 원'],
   category: categoryChip('기획 · 전략'),
   sections: INOBUS_SECTIONS,
 };

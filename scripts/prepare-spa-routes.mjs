@@ -10,6 +10,8 @@ const routes = [
   'card',
   'settings',
   'inobus',
+  'spacev',
+  'second',
   'hirax',
   'grace',
   'dongnae',

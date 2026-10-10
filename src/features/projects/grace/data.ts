@@ -39,7 +39,7 @@ export const GRACE_DATA: ProjectData = {
     roleChip('이커머스 기획'),
     roleChip('입점 제안'),
   ],
-  result: ['닥터숄 국내 포지셔닝·판매 전략 제안', '산학협력 아이디어 우수상'],
+  result: ['닥터숄 국내 포지셔닝·판매 전략 제안'],
   category: categoryChip('기획 · 전략'),
   sections: GRACE_SECTIONS,
 };
