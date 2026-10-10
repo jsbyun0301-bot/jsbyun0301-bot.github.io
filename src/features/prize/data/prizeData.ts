@@ -39,7 +39,7 @@ export const prizeList = [
   },
   {
     src: AWARD_PLACEHOLDER,
-    title: '사회복무요원 표창장',
+    title: '우수 사회복무요원 표창장',
     date: '2023.01',
     organization: '시흥시청',
     description: '인사 데이터 관리 및 민원 응대 우수',

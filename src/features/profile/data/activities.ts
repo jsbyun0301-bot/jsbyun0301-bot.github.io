@@ -12,7 +12,7 @@ export const ACTIVITIES: CareerEntry[] = [
     ],
   },
   {
-    org: '기아대책 번역봉사 12기',
+    org: '기아대책 해외 아동 후원 - 번역 봉사 12기',
     period: '2024.10 ~ 2025.01',
     role: '크리스마스 영문 · 한영 번역',
     highlights: [
