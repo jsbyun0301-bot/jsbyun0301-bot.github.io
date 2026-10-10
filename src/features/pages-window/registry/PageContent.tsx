@@ -21,6 +21,8 @@ const PAGE_CONTENT_MAP: Partial<Record<PageType, LazyComponent>> = {
   inobus: lazy(() => import('@/features/projects/inobus/Page')),
   hirax: lazy(() => import('@/features/projects/hirax/Page')),
   grace: lazy(() => import('@/features/projects/grace/Page')),
+  spacev: lazy(() => import('@/features/projects/spacev/Page')),
+  second: lazy(() => import('@/features/projects/second/Page')),
   dongnae: lazy(() =>
     import('@/features/projects/extra').then((m) => ({ default: m.DongnaePage }))
   ),
