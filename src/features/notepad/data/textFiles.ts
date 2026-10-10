@@ -10,7 +10,7 @@ export const SYSTEM_TEXT_FILES: Record<TextFileId, DesktopTextFile> = {
 
 - macOS 데스크톱에서 영감을 받은 포트폴리오입니다.
 - 창, Dock, 상단 메뉴바, Spotlight 검색으로 정보를 탐색합니다.
-- 기획자이지만 필요한 도구는 직접 만든다는 점을 이 사이트로 보여줍니다.
+- 기획자이지만 필요한 건 직접 제작한다는 점을 이 사이트로 보여줍니다.
 
 빠른 시작
 
