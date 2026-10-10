@@ -35,13 +35,13 @@ export const HIRAX_DATA: ProjectData = {
   tools: [toolChip('Excel'), toolChip('PowerPoint')],
   period: '2023',
   membersLabel: '소속',
-  members: '스타트업 전략학회 <그루> · 하이랙스 산학협력',
+  members: '성균관대 스타트업 실천경영전략학회 <그루> · 하이랙스 산학협력',
   roles: [
     roleChip('데이터 분석'),
     roleChip('전략 기획'),
     roleChip('UX 기획'),
   ],
-  result: ['상관분석 R² 0.46 (p<0.001)'],
+  result: ['초심자 진입 장벽을 핵심 문제로 정의', '상관분석 R² 0.46 (p<0.001)'],
   category: categoryChip('기획 · 전략'),
   sections: HIRAX_SECTIONS,
 };

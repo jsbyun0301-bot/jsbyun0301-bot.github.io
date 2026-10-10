@@ -72,7 +72,7 @@ export const ROUTE_SEO: Record<string, RouteSeo> = {
   '/hirax': {
     title: '하이랙스 스마트 피트니스 | 변지섭 포트폴리오',
     description:
-      '강남점 상권 데이터 분석(상관분석)을 근거로 개인화 포지셔닝 전략과 AI 맞춤 서비스를 기획한 하이랙스 산학협력 프로젝트입니다.',
+      '강남 상권 데이터를 분석하고, 기존 센터가 숙련자 중심이라 초심자 진입 장벽이 높다는 점을 문제로 정의해 개인화 서비스를 기획한 하이랙스 산학협력 프로젝트입니다.',
     canonicalPath: '/hirax/',
   },
   '/grace': {

@@ -33,7 +33,7 @@ export const GRACE_DATA: ProjectData = {
   tools: [toolChip('PowerPoint'), toolChip('네이버 스마트스토어')],
   period: '2023.10 ~ 2023.12',
   membersLabel: '소속',
-  members: '스타트업 전략학회 <그루> · 그레이스 산학협력',
+  members: '성균관대 스타트업 실천경영전략학회 <그루> · 그레이스 산학협력',
   roles: [
     roleChip('브랜드 전략'),
     roleChip('이커머스 기획'),
