@@ -33,7 +33,7 @@ export const INOBUS_DATA: ProjectData = {
     skillChip('고객여정지도'),
   ],
   tools: [toolChip('Excel'), toolChip('PowerPoint')],
-  period: '2023.04 ~ 2023.07',
+  period: '2023 상반기',
   membersLabel: '소속',
   members: '성균관대 스타트업 실천경영전략학회 <그루> · 이노버스 산학협력',
   roles: [

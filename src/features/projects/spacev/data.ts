@@ -29,7 +29,7 @@ export const SPACEV_DATA: ProjectData = {
     skillChip('전략 기획'),
   ],
   tools: [toolChip('Excel'), toolChip('PowerPoint')],
-  period: '2023.09 ~ 2023.12',
+  period: '2023 하반기',
   membersLabel: '소속',
   members: '성균관대 스타트업 실천경영전략학회 <그루> · 스페이스브이 산학협력',
   roles: [roleChip('서비스 기획'), roleChip('수요 검증'), roleChip('현장 조사')],

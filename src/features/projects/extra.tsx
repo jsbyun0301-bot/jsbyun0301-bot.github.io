@@ -48,7 +48,7 @@ const DONGNAE_DATA: ProjectData = {
     skillChip('프로토타이핑'),
   ],
   tools: [toolChip('PowerPoint')],
-  period: '2022.07 ~ 2022.09',
+  period: '2022.07 ~ 2022.08',
   membersLabel: '소속',
   members: '팀 <따옴>',
   roles: [roleChip('데이터 분석'), roleChip('서비스 기획')],

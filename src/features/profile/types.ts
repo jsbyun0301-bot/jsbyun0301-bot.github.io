@@ -6,6 +6,7 @@ export type Project = {
   title: string;
   subtitle?: string;
   role: string;
+  group?: string;
   period?: string;
   teamSize?: string;
   highlights?: string[];

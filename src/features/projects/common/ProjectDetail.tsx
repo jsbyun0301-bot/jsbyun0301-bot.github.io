@@ -38,7 +38,7 @@ export function ProjectDetail({ data: D }: { data: ProjectData }) {
             {D.category && <Chips items={[D.category]} />}
           </div>
           {D.summary && (
-            <p className='text-[15px] text-[#444] mt-2'>{D.summary}</p>
+            <p className='text-pretty text-[15px] text-[#444] mt-2'>{D.summary}</p>
           )}
 
           {D.highlights && D.highlights.length > 0 && (
@@ -133,7 +133,7 @@ export function ProjectDetail({ data: D }: { data: ProjectData }) {
                 <div className='text-[15px] font-bold mb-2'>{r.title}</div>
                 <ul className='text-sm text-[#333] leading-relaxed list-disc pl-5'>
                   {r.items.map((it, i) => (
-                    <li key={i} className='mb-2'>
+                    <li key={i} className='mb-2 last:mb-0 text-pretty'>
                       {it}
                     </li>
                   ))}
@@ -150,7 +150,7 @@ export function ProjectDetail({ data: D }: { data: ProjectData }) {
           <div className='border border-[#e2e2e2] rounded-[14px] p-4 bg-white shadow-sm'>
             <ul className='text-sm text-[#333] leading-relaxed list-disc pl-5'>
               {D.outcomes.map((o, i) => (
-                <li key={i} className='mb-2'>
+                <li key={i} className='mb-2 last:mb-0 text-pretty'>
                   {o}
                 </li>
               ))}
@@ -165,7 +165,7 @@ export function ProjectDetail({ data: D }: { data: ProjectData }) {
         <div className='mb-3'>
           <SectionTitle>{D.sectionsTitle}</SectionTitle>
           {D.sectionsIntro && (
-            <p className='text-[15px] text-[#444] -mt-1'>{D.sectionsIntro}</p>
+            <p className='whitespace-pre-line text-pretty text-[15px] text-[#444] -mt-1'>{D.sectionsIntro}</p>
           )}
         </div>
       )}
@@ -180,7 +180,7 @@ export function ProjectDetail({ data: D }: { data: ProjectData }) {
               <div className='text-[16px] font-bold mb-3'>{s.title}</div>
               <ul className='text-sm text-[#333] leading-relaxed list-disc pl-5'>
                 {s.bullets?.map((b, i) => (
-                  <li key={i} className='mb-2'>
+                  <li key={i} className='mb-2 last:mb-0 text-pretty'>
                     {b}
                   </li>
                 ))}
@@ -221,7 +221,7 @@ export function ProjectDetail({ data: D }: { data: ProjectData }) {
                   {s.bullets && s.bullets.length > 0 && (
                     <ul className='text-sm text-[#333] leading-relaxed list-disc pl-5'>
                       {s.bullets.map((b, i) => (
-                        <li key={i} className='mb-2'>
+                        <li key={i} className='mb-2 last:mb-0 text-pretty'>
                           {b}
                         </li>
                       ))}
@@ -253,14 +253,14 @@ export function ProjectDetail({ data: D }: { data: ProjectData }) {
                           {item.points && item.points.length > 0 ? (
                             <ul className='mt-3 list-disc pl-5 text-[15px] leading-relaxed text-[#333]'>
                               {item.points.map((p, i) => (
-                                <li key={i} className='mb-1.5'>
+                                <li key={i} className='mb-1.5 last:mb-0 text-pretty'>
                                   {p}
                                 </li>
                               ))}
                             </ul>
                           ) : (
                             item.description && (
-                              <p className='mt-3 text-[15px] leading-relaxed text-[#333]'>
+                              <p className='mt-3 text-pretty text-[15px] leading-relaxed text-[#333]'>
                                 {item.description}
                               </p>
                             )
@@ -280,7 +280,7 @@ export function ProjectDetail({ data: D }: { data: ProjectData }) {
             const bulletList = hasBullets ? (
               <ul className='text-[15px] text-[#333] leading-relaxed list-disc pl-5'>
                 {s.bullets?.map((b, i) => (
-                  <li key={i} className='mb-2'>
+                  <li key={i} className='mb-2 last:mb-0 text-pretty'>
                     {b}
                   </li>
                 ))}

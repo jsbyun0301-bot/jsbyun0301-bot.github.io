@@ -31,15 +31,15 @@ export const GRACE_DATA: ProjectData = {
     skillChip('타겟 분석'),
   ],
   tools: [toolChip('PowerPoint'), toolChip('네이버 스마트스토어')],
-  period: '2023.10 ~ 2023.12',
+  period: '2023 하반기',
   membersLabel: '소속',
   members: '성균관대 스타트업 실천경영전략학회 <그루> · 그레이스 산학협력',
   roles: [
     roleChip('브랜드 전략'),
     roleChip('이커머스 기획'),
-    roleChip('입점 제안'),
+    roleChip('채널 전략'),
   ],
-  result: ['닥터숄 국내 포지셔닝·판매 전략 제안'],
+  result: ['산학협력 우수상', '닥터숄 국내 포지셔닝·판매 전략 제안'],
   category: categoryChip('기획 · 전략'),
   sections: GRACE_SECTIONS,
 };

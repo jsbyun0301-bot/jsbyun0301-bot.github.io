@@ -33,7 +33,7 @@ export const HIRAX_DATA: ProjectData = {
     skillChip('데이터 시각화'),
   ],
   tools: [toolChip('Excel'), toolChip('PowerPoint')],
-  period: '2023',
+  period: '2023 상반기',
   membersLabel: '소속',
   members: '성균관대 스타트업 실천경영전략학회 <그루> · 하이랙스 산학협력',
   roles: [

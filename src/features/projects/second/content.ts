@@ -4,7 +4,6 @@ export const SECOND_SUMMARY =
   '셀프스토리지 <다락> 운영에 최적화된 매물을 발굴하기 위한 B2B 공급 방법론 수립 (세컨신드롬 산학협력)';
 
 export const SECOND_HIGHLIGHTS = [
-  '산학협력 우수상',
   '입지 조건 기준화로 매물 사전 검토 체계 설계',
 ];
 
@@ -36,7 +35,6 @@ export const SECOND_RESPONSIBILITIES = [
 ];
 
 export const SECOND_OUTCOMES = [
-  '산학협력 우수상 수상',
   '매물 선별 기준을 문서화해 검토 전 단계에서 걸러낼 수 있는 구조 확보',
   '공실을 가진 건물주가 먼저 제안하게 만드는 공급자 유입 경로 제안',
 ];

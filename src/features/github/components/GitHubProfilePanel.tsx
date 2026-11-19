@@ -306,7 +306,7 @@ export function GitHubProfilePanel() {
                 대표 저장소
               </div>
               <p className='mt-2 text-sm leading-6 text-[#64748b]'>
-                사내 개발 교육 스터디(2026.03~05)에서 AI 도구를 활용해 직접 기획·구현한
+                사내 AI 활용 스터디(2026.03~06)에서 AI 도구를 활용해 직접 기획·구현한
                 결과물입니다. 여기서 익힌 역량은 실무의 번역 품질 자동 평가 파이프라인
                 구축으로 이어졌습니다.
               </p>
